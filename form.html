@@ -1,13 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Тестування</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Тестування</title>
 </head>
 <body>
-    <h3>Простенький тест :)</h3>
-    тут скоро шось буде
+	<a href="index.html">Назад</a>
+	<h3>тест</h3>
+    <hr>
+    <form action="#" method="POST" name="test">
+        <p>Яка по рахунку від сонця земля?</p>
+        <input type="radio" name="number" value="1"> 1 <br>
+        <input type="radio" name="number" value="4"> 4 <br>
+        <input type="radio" name="number" value="3"> 3 <br>
+        <input type="radio" name="number" value="7"> 7 <br>
+        <hr>
+        <p>Що бажаєте?</p>
+        <input type="checkbox" name="drink" value="tea"> Чай <br>
+        <input type="checkbox" name="drink" value="coffee"> Кава <br>
+        <input type="checkbox" name="drink" value="beer"> Пиво <br>
+        <input type="checkbox" name="drink" value="Pizza"> Піца <br>
+        <hr>
+        Безкоштовно фірмова:
+        <select name="office" id="office">
+            <option value="pen">Ручка</option>
+            <option value="pencil">Олівець</option>
+            <option value="ruler">Лінійка</option>
+        </select>
+        <hr>
+        <label for="first-name">
+            Ваше ім'я: <br>
+            <input type="text" name="name" id="first-name">
+        </label><br><br>
+        <label for="email">
+            Email: <br>
+            <input type="email" name="email" id="email">
+        </label><br><br>
+        <label for="some-text">
+            Повідомлення:<br>
+            <textarea name="message" id="some-text"></textarea>
+        </label>
+        <hr>
+        <input type="submit" value="Відправити">
+    </form>
+    
+    
+	<!-- <form action="" method="POST">
+		<label>
+		
+            Your Name:
+	        <input type="text" name="name">
+            
+	    </label><br>
+		<label>
+            Your Email:
+            <input type="email" name="_replyto">
+	    </label>
+		<label><br>
+	        Message:
+	        <textarea name="message"></textarea>
+	    </label><br>
+	    <input type="submit" value="Send">
+	</form>
+
+	<fieldset>
+		<legend>Контактная информация</legend>
+		<label>Имя<input type="text" required></label><br>
+		<label>E-mail<input type="email" required></label>
+	</fieldset>
+
+
+	<form name="test" method="post" action="input1.php">
+		<p><b>Ваше имя:</b><br>
+			<input type="text" size="40" name="nick">
+	    </p>
+		<p><b>Каким браузером в основном пользуетесь:</b><br>
+			<input type="radio" name="browser" value="ie"> Internet Explorer<br>
+			<input type="radio" name="browser" value="opera"> Opera<br>
+			<input type="radio" name="browser" value="firefox"> Firefox<br>
+	    </p>
+		<p>
+            Комментарий<br>
+			<textarea name="comment" cols="40" rows="3"></textarea>
+        </p>
+		<p>
+            <input type="submit" value="Отправить">
+			<input type="reset" value="Очистить">
+        </p>
+	</form> -->
+
 </body>
 </html>
